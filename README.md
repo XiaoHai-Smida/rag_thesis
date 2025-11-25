@@ -1,6 +1,8 @@
 # 医学文献检索增强生成（RAG）对话系统开发
 ## 项目概述
 
+![项目状态](https://img.shields.io/badge/status-active-brightgreen.svg) ![技术栈](https://img.shields.io/badge/tech-LangChain%20%7C%20LangGraph%20%7C%20LLM-orange.svg) ![应用场景](https://img.shields.io/badge/scene-MRI%20Brain%20Network%20Analysis-blue.svg)
+
 > 本项目是一个自用的检索增强生成（RAG）工具，专注于MRI脑网络分析领域常用概念的知识检索。基于LangChain与LangGraph搭建，通过多Agent协同工作，结合本地部署的向量数据库与大语言模型，实现专业概念的精准查询与解答，同时配套精度验证模块保障结果可靠性。
 
 ## 技术栈
