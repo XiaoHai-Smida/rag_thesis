@@ -1,0 +1,5 @@
+{
+  "_type": "prompt",
+  "input_variables": ["question", "context"],
+  "template": "根据提供的上下文内容回答用户问题，生成简洁明确的回复，禁止编造不存在的信息。如果上下文不包含答案，必须明确回答“根据提供信息无法回答”。\n用户问题:\n{question}\n上下文内容:\n{context}"
+}

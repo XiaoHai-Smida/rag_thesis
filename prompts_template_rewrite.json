@@ -1,0 +1,5 @@
+{
+  "_type": "prompt",
+  "input_variables": ["question", "history"],
+  "template": "你是一个智能助手，能够结合对话历史，尝试推理其背后的语义意图和含义，重写一个更具体或更有效的问题。\n只输出改进后的问题，不需要输出分析过程。\n\n这是对话历史:\n{history}\n这是当前问题:\n{question}\n"
+}

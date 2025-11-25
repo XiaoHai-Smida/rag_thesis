@@ -1,0 +1,5 @@
+data
+chroma_db
+.env
+demo*
+checkpoint

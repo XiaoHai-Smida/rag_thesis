@@ -1,0 +1,6 @@
+{
+  "_type": "prompt",
+  "input_variables": ["question", "context"],
+  "template": "你是一名专业的评分员，给定以下问题和上下文，请评估上下文与问题的相关性。\n如果上下文中包含与用户问题相关的关键词或语义，则将其评为相关，返回选项：yes。\n如果不相关，则返回选项：no。\n了这两个选项外，不要返回任何其他的内容。\n\n用户问题:\n{question}\n上下文:\n{context}"
+}
+
